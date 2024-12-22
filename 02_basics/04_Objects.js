@@ -46,10 +46,52 @@ console.log(Object.entries(tinderUser)); // Arrays in array
 
 console.log(tinderUser.hasOwnProperty('IsLoggedIn'));
 
+//! Object De-Structure
 
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course
+
+// console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course //! OR
+console.log(instructor);
+
+/*
+
+//! In React
+
+const navbar = ({company}) => {
+
+}
+
+navbar(company="hitesh")
+
+*/
+
+//! Json API
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "999"
 
 
+// }
 
+//! Json Format
+[
+    {},
+    {},
+    {}
+
+]
 
 
